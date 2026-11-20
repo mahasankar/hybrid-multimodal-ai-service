@@ -1,0 +1,17 @@
+{
+  "model_version": "1.0.0",
+  "features": [
+    "claim_amount",
+    "amount_to_role_avg_ratio",
+    "employee_tenure_months",
+    "claims_last_30_days",
+    "is_weekend_submission",
+    "is_high_risk_category",
+    "receipt_text_confidence"
+  ],
+  "roc_auc": 0.7614,
+  "risk_thresholds": {
+    "low": 0.3,
+    "high": 0.7
+  }
+}

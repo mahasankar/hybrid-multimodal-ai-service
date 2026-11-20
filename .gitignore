@@ -1,0 +1,74 @@
+# ==========================================
+# Secrets & Environment Files
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ==========================================
+# Python (ML, OCR, Speech Services)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# ==========================================
+# Java / Maven (Fraud Orchestrator Service)
+# ==========================================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.jar
+*.war
+*.ear
+*.class
+hs_err_pid*
+replay_pid*
+
+# ==========================================
+# IDEs & Editors
+# ==========================================
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.project
+.classpath
+*.swp
+*.swo
+*~
+
+# ==========================================
+# OS & Logs
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+logs/
+
+# ==========================================
+# Local Smoke-Test Media & Scratch Artifacts
+# ==========================================
+test_*.mp3
+test_*.wav
+test_*.png
+test_*.jpg
+empty_audio.*
+note.txt
+*.zip
